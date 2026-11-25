@@ -1,0 +1,6 @@
+external_ref,title,work_type,priority,received_at,channel,complexity,line_items
+EXT-1001,Fix duplicate member records,DATA_FIX,P2,,email,1,4
+EXT-1002,Quarterly vendor reconciliation,RECON,P3,,batch,3,12
+EXT-1003,Grant reporting access,ACCESS_REQ,P1,,portal,1,1
+EXT-1004,New subsidiary account setup,ACC_SETUP,P3,,portal,2,6
+EXT-1005,Client escalation - billing config,ESCALATION,P1,,email,3,9

@@ -1,0 +1,12 @@
+# One-click deploy on Render (free web service). See docs/DEPLOY.md.
+services:
+  - type: web
+    name: opspulse
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: DATABASE_URL
+        sync: false          # paste a free Neon / Supabase Postgres URL; leave empty for SQLite
+      - key: RESET_ON_STARTUP
+        value: "true"        # free instances sleep; reseed on wake so demo data is always "today"

@@ -1,0 +1,6 @@
+line-length = 120
+target-version = "py312"
+
+[lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["B905", "B008", "E501", "UP046", "UP017"]  # zip strict noise; FastAPI Depends defaults; formatter owns length
