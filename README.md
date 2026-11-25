@@ -105,7 +105,7 @@ cd frontend && npm install && npm run dev  # http://localhost:5173, proxies /api
 
 ## 🌐 Live demo
 
-Deployed on Render's free tier (it sleeps when idle, so the first load takes about a minute). The demo **reseeds on every wake**, so the queue is always "today". Feel free to assign, start timers and upload files.
+Deployed on Render'
 
 > Live demo: _add your Render URL here_
 
